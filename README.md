@@ -11,6 +11,7 @@ Project de programmation web
 4.points faibles du site existant
 	-anciennes version du frameworks bootstrap utilisés
 	-palettes des couleurs anciennes utilisé
+	
 5.L'histoire de Chris Lattner
 
 	Chris Lattner, informaticien américain, né en 1978, est connu comme le principal auteur du compilateur Clang et de sa plate-forme de bas niveau LLVM. Depuis 2017, il travaille chez Google Brain.
