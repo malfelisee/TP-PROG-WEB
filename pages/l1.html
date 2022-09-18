@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esisalama</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../icon/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/bootstrap-grid.rtl.css">
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <style>
+    .mark {
+      background-color: #1d4ed8;
+      color: white;
+      font-weight: bold
+    }
+  </style>
+
+  <nav class="navbar nav-pills navbar-expand-xl fixed-top" style="background-color: #1d4ed8;">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="../index.html">
+        <img src="../img/logo.png" alt="Logo" class="position-absolute" style="top: 1px;">
+      </a>
+      <div class="col mt-1"><span class="justify-content-center" style="text-align:left;">
+          <div class="d-lg-none position-absolute fw-bold text-light" style="top: 15px;left: 55px;">E.S.I.S</div>
+          <div class="d-none d-lg-block position-absolute fw-bold text-light" style="top: 15px;left: 55px;">Ecole
+            Supérieure d'Informatique Salama</div>
+        </span></div>
+      <div class="col-6"></div>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll bg-light rounded"
+          style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" aria-current="page" href="../index.html"><i class="bi bi-house"></i>
+              Accueil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light fw-bold active" href="" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-book"></i> Education
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/horaire.html">Horaire des cours</a></li>
+              <li><a class="dropdown-item" href="../pages/centre.html">Centre d'excellence </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../pages/biblio.html">Bibliothèque</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-bold" href="actu.html"><i class="bi bi-newspaper"></i> Actualités</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-info-square"></i> A propos d'esis
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="presentation.html">Presentaion</a></li>
+              <li><a class="dropdown-item" href="cursus.html">Cursus</a></li>
+              <li><a class="dropdown-item" href="admission.html">Admission</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="contacter.html">Nous contacter</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-nowrap me-0 mt-5" style="background-color: #3b82f6;">
+    <div class="row row-cols2">
+      <div class="col text-nowrap">
+        <a class="fs-3 text-white text-decoration-none"><i class="bi bi-table"></i>Horaires des cours</a>
+      </div>
+      <div class="col text-nowrap">
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb  bg-light rounded border mt-2 position-absolute" style="right: 20px;">
+            <li class="breadcrumb-item"><a href="../index.html"> Acceuil</a></li>
+            <li class="breadcrumb-item "><a href="../pages/horaire.html">Horaires</li></a>
+            <li class="breadcrumb-item active" aria-current="page">Horaire-jour</li>
+          </ol>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="border">
+      <div class="container-fluid text-center text-primary fs-1 border">JOUR-HORAIRE DES EXMENS SECOND SEMESTRE DU 19 AU
+        27-SEPTEMBRE-022 </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Prepa
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  ms-5">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>Physique(sans notes)</td>
+                    <td> EOE(sans notes) </td>
+                    <td>Anglais (sans notes)</td>
+                    <td>Esthétique(sans notes) </td>
+                    <td>Dessin (sans notes)</td>
+                    <td>ETUDE</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>Bureautique (sans notes)</td>
+                    <td>Science Foi (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              L1
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                <tbody>
+                  <tr class="mark">
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>Prog. Avec C(sans notes)</td>
+                    <td> Com. Visuelle(sans notes) </td>
+                    <td>Prog Web (sans notes)</td>
+                    <td>ETUDE</td>
+                    <td>Base des données(sans notes)</td>
+                    <td>Théorie de l'info.(sans notes)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>VBA (sans notes)</td>
+                    <td>TCP (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              L2-AS
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 11H</td>
+                    <td>Début 8H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>GPI(sans notes) ELN NUM(sans notes)</td>
+                    <td> EOE(sans notes) Anglais(sans notes) </td>
+                    <td>Labo (sans notes)</td>
+                    <td>MRS(sans notes) Admin. Syst.(sans notes) </td>
+                    <td>ELN ANAL(sans notes)</td>
+                    <td>Scripting(sans notes)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="horaire-mark">Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td class="horaire-mark">Syst. Emb. (sans notes)</td>
+                    <td>Routage (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              L2-TLC
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 11H</td>
+                    <td>Début 8H</td>
+                    <td>Début 11H</td>
+                    <td>Début 11H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>GPI(sans notes) ELN NUM(sans notes)</td>
+                    <td> EOE(sans notes) Anglais(sans notes) </td>
+                    <td>Labo (sans notes)</td>
+                    <td>MRS(sans notes) </td>
+                    <td>ELN ANAL(sans notes)</td>
+                    <td>TLC(sans notes)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td class="mark bg-primary">Début 11H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>Syst. Emb. (sans notes)</td>
+                    <td>Routage (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              LS-GL
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>GPI(sans notes)</td>
+                    <td> EOE(sans notes) Anglais(sans notes) </td>
+                    <td>Génie Logiciel(sans notes)</td>
+                    <td>MRS(sans notes) </td>
+                    <td>PHN(sans notes)</td>
+                    <td>DM(sans note)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>POO (sans notes)</td>
+                    <td>C avancé(sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              L2-MSI
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>GPI(sans notes)</td>
+                    <td> EOE(sans notes) Anglais(sans notes) </td>
+                    <td>GST Bug.(sans notes)</td>
+                    <td>MRS(sans notes) </td>
+                    <td>PHN(sans notes)</td>
+                    <td>GST Stock(sans note)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>POO (sans notes)</td>
+                    <td>Management (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              L2-DSG
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <table class="table table-bordered border-primary">
+                <tbody class="text-center border-5 shadow">
+                  <tr class="mark">
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                    <td>Début 8H</td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 19-SEPT</td>
+                    <td>Mardi 20-SEPT</td>
+                    <td>Mercredi 21-SEPT</td>
+                    <td>Jeudi 22-SEPT</td>
+                    <td>Vendredi 23-SEPT</td>
+                    <td>Samedi 24-SEPT</td>
+                  </tr>
+                  <tr>
+                    <td>GPI(sans notes) Dessin et expression(sans notes)</td>
+                    <td> EOE(sans notes) Anglais(sans notes) </td>
+                    <td>Dev. Mobile(sans notes)</td>
+                    <td>MRS(sans notes) Histoire de l'art(sans notes) </td>
+                    <td>Graphisme(sans notes)</td>
+                    <td>Init. Multimédias(sans notes)</td>
+                  </tr>
+                  <tr>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td class="mark bg-primary">Début 8H</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Lundi 26-SEPT</td>
+                    <td>Mardi 27-SEPT</td>
+                    <td>Mercredi 28-SEPT</td>
+                    <td>Jeudi 29-SEPT</td>
+                    <td>Vendredi 30-SEPT</td>
+                    <td>Jeudi 06-OCTOBRE</td>
+                  </tr>
+                  <tr>
+                    <td>Décoration (sans notes) POO(sans notes)</td>
+                    <td>Concept. Int. (sans notes)</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Attente des résultats</td>
+                    <td>Délibération</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <footer class="row row-cols-lg-3 row-cols-1 row-cols-sm-1 row-cols-md-1 py-5 my-5 border-top"
+      style="text-align: center;">
+      <div class="col mb-4">
+        <h5>COORDONNEES</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">République Démocratique du Congo (RDC)</a></li>
+          <li class="nav-item mb-2"><a class="nav-link p-0 text-muted"><i class="bi bi-phone"></i>+(243) 82 226 74
+              72</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="bi bi-mailbox"></i>
+              info@esisalama.org</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-4">
+        <h5>QUELQUES LIENS UTILES</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="horaire.html" class="nav-link p-0 text-muted">Horaires des cours</a></li>
+          <li class="nav-item mb-2"><a href="actu.html" class="nav-link p-0 text-muted">Voir actualités</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-4">
+        <h5>RESTONS CONNECTES</h5>
+        <ul class="nav flex-column ">
+          <li class="nav-item mb-1">
+            <a style="font-size:x-large;">
+
+              <i class="bi bi-google"></i>
+              <span> <i class="bi bi-facebook"></i></span>
+              <span> <i class="bi bi-youtube"></i></span>
+            </a>
+
+
+          </li>
+        </ul>
+      </div>
+      <div class="container text-center border-top border-bottom">
+        Copyright © ESISALAMA 2022
+      </div>
+    </footer>
+  </div>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
